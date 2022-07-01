@@ -1,6 +1,6 @@
 name: Build without tests
 
-on: push
+on: [schedule]
 
 env:
   UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
