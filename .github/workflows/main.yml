@@ -96,7 +96,7 @@ jobs:
           name: build-StandaloneWindows64
           path: build/StandaloneWindows64
 
-    buildMac:
+  buildMac:
     needs: testRunner
     name: Build for Mac 🖥
     runs-on: ubuntu-latest
