@@ -1,6 +1,6 @@
 name: GameCI Template 🎮
 
-on: push
+on: [schedule]
 
 env:
   UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
